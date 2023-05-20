@@ -1,0 +1,49 @@
+.button {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding: 12px 39px;
+
+    @include font($size: 1.8rem, $weight: 900, $height: 2.1rem);
+    text-transform: uppercase;
+    color: #FFFFFF;
+
+    background: linear-gradient(106.89deg, #4BD8B5 -14.32%, #49D6DF 100.68%);
+    border-radius: 3px;
+    border: none;
+}
+
+.button-transparent {
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    padding: 0px;
+
+    @include font($size: 1.2rem, $weight: 500, $height: 1.4rem);
+    text-transform: uppercase;
+    color: #FFFFFF;
+
+    background: transparent;
+    border: none;
+    &:hover {
+        background: linear-gradient(106.89deg, #4BD8B5 -14.32%, #49D6DF 100.68%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        @extend %transition;
+        >* {
+            border: 1px solid #4BD8B5;
+            fill: #4BD8B5;
+        }
+    }
+}
+
+.button-transparent__sign {
+    width: 24px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    border: 1px solid #FFFFFF;;
+}

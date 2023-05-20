@@ -11,6 +11,7 @@
     &:hover {
         @include font($size: 1.6rem, $weight: 900, $height:1.9rem);
         text-decoration: underline;
+        @extend %transition;
     }
     &_active {
         @include font($size: 1.6rem, $weight: 900, $height:1.9rem);

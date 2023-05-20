@@ -3,14 +3,18 @@
 //abstract
 @import "abstract/constans";
 @import "abstract/mixins";
+@import "abstract/placeholders";
 
 //base
 @import "base/base";
+@import "base/buttons";
 @import "base/logo";
 
 //components
 @import "components/navigation";
 @import "components/theme-togler";
+@import "components/watch-online";
+@import "components/gallery-pets";
 
 //layout
 @import "layout/wrapper";
