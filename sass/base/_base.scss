@@ -1,0 +1,19 @@
+html {
+    font-size: 10px;
+}
+
+body {
+    @include font($size: 1.4rem, $weight:400, $height: 1.641rem);
+}
+
+h1 {
+    @include font($size: 8.9rem, $weight: 900, $height: 10.4rem);
+    color: #FEFEFE;
+    margin: 0px;
+}
+
+h2 {
+    @include font($size: 4.8rem, $weight: 900, $height: 5.6rem);
+    color: #333333;
+    margin: 0px;
+}
