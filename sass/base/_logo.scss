@@ -1,0 +1,9 @@
+.logo__text {
+    @include font($size:3.6rem, $weight: 900, $height: 1.8rem);
+    margin: 0px;
+    color: #333333;
+    >* {
+        @include font($size: 1.8rem, $weight: 900, $height: 1.8rem);
+        letter-spacing: 0.08em;
+    }
+}

@@ -6,6 +6,12 @@
 
 //base
 @import "base/base";
+@import "base/logo";
+
+//components
+@import "components/navigation";
+@import "components/theme-togler";
 
 //layout
 @import "layout/wrapper";
+@import "layout/header";
