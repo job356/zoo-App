@@ -1,0 +1,23 @@
+{
+  "name": "zoo-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "style" : "sass --watch sass/style.scss sass/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/job356/zoo-App.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/job356/zoo-App/issues"
+  },
+  "homepage": "https://github.com/job356/zoo-App#readme",
+  "dependencies": {
+    "node-sass": "^9.0.0"
+  }
+}
