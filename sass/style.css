@@ -687,6 +687,9 @@ h2 {
   width: 245px;
   padding: 20px 0 0 186px;
 }
+.pagination_how-works {
+  padding: 0px;
+}
 
 .pagination__number {
   font-family: "Roboto";
@@ -706,6 +709,12 @@ h2 {
   line-height: 1.6rem;
   color: #BDBDBD;
 }
+.pagination__number_how-works {
+  color: #333333;
+}
+.pagination__number_how-works > * {
+  color: #BDBDBD;
+}
 
 .pagination__range {
   -webkit-appearance: none;
@@ -723,6 +732,61 @@ h2 {
   height: 10px;
   background: #FEFEFE;
   cursor: pointer;
+}
+
+.pagination__range_how-works::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 62px;
+  height: 10px;
+  background: #333333;
+  cursor: pointer;
+}
+
+.how-works {
+  padding: 100px 0 101px;
+}
+
+.how-works__wrapper {
+  padding: 0 414px;
+}
+
+.how-works-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+
+.how-works__title {
+  font-family: "Roboto";
+  font-style: normal;
+  font-size: 4.8rem;
+  font-weight: 900;
+  line-height: 5.6rem;
+  align-self: flex-start;
+  margin: 0px;
+  color: #333333;
+}
+
+.how-works__description {
+  font-family: "Roboto";
+  font-style: normal;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.6rem;
+  margin: 0px;
+  color: #4F4F4F;
+}
+
+.animals-viewport {
+  width: 100%;
+  overflow: hidden;
+}
+
+.animals {
+  display: flex;
+  gap: 46px;
 }
 
 .wrapper {
