@@ -1,0 +1,30 @@
+.company-values {
+    padding: 114px 0;
+    background: #F2F2F2;
+}
+
+.company-values__content {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+
+.value {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-basis: 380px;
+    gap: 15px;
+}
+
+.value__name {
+    @include font($size: 2rem, $weight: 900, $height: 2.3rem);
+    margin: 0px;
+    color: #333333;
+}
+
+.value__description {
+    @include font($size: 1.4rem, $weight: 400, $height: 1.6rem);
+    margin: 0px;
+    color: #4F4F4F;
+}
