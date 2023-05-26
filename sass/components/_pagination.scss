@@ -4,6 +4,10 @@
     &_how-works {
         padding: 0px;
     }
+    &_pet-in-zoo {
+        padding: 0px;
+        margin: 30px auto 30px;
+    }
 }
 
 .pagination__number {
@@ -19,6 +23,12 @@
         color: #333333;
         >* {
             color: #BDBDBD;
+        }
+    }
+    &_pet-in-zoo {
+        color: #333333;
+        >* {
+            color: #828282;
         }
     }
 }
@@ -45,6 +55,15 @@
     -webkit-appearance: none;
     appearance: none;
     width: 62px;
+    height: 10px;
+    background: #333333;
+    cursor: pointer;
+}
+
+.pagination__range_pet-in-zoo::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 30px;
     height: 10px;
     background: #333333;
     cursor: pointer;

@@ -11,7 +11,7 @@
     left: -135px;
 }
 
-.gallery-pets-vieport {
+.gallery-pets-viewport {
     overflow: hidden;
 }
 
@@ -19,6 +19,9 @@
     display: flex;
     align-items: center;
     gap: 46px;
+    &_pet-in-zoo {
+        gap: 30px;
+    }
 }
 
 .pet {
@@ -31,15 +34,13 @@
         height: 352px;
     }
     &:hover {
-        // width: 245px;
-        // height: 352px;
-        // > .pet__img {
-        //     width: 245px;
-        //     height: 352px;
-        // }
         >* {
             transform: translateY(0px);
         }
+    }
+    &_pet-in-zoo {
+        width: 277px;
+        height: 399px;
     }
 }
 
@@ -52,6 +53,11 @@
         width: 245px;
         height: 352px;
     }
+    &_pet-in-zoo {
+        width: 277px;
+        height: 399px;
+        filter: none;
+    }
 }
 
 .pet-content {
@@ -62,6 +68,12 @@
     transform: translateY(120px);
     overflow: hidden;
     @extend %transition;
+    &_pet-in-zoo {
+        top: 269px;
+        left: 22px;
+        transform: translateY(130px);
+        overflow: hidden;
+    }
 }
 
 .pet-content__buttons {

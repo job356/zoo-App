@@ -453,6 +453,10 @@ h2 {
   border-radius: 3px;
   border: none;
 }
+.button_pet-in-zoo {
+  margin: 0 auto;
+  padding: 17px 18px;
+}
 
 .button-transparent {
   display: flex;
@@ -623,7 +627,7 @@ h2 {
   left: -135px;
 }
 
-.gallery-pets-vieport {
+.gallery-pets-viewport {
   overflow: hidden;
 }
 
@@ -631,6 +635,9 @@ h2 {
   display: flex;
   align-items: center;
   gap: 46px;
+}
+.gallery-pets_pet-in-zoo {
+  gap: 30px;
 }
 
 .pet {
@@ -645,6 +652,10 @@ h2 {
 .pet:hover > * {
   transform: translateY(0px);
 }
+.pet_pet-in-zoo {
+  width: 277px;
+  height: 399px;
+}
 
 .pet__img {
   width: 140px;
@@ -656,6 +667,11 @@ h2 {
   width: 245px;
   height: 352px;
 }
+.pet__img_pet-in-zoo {
+  width: 277px;
+  height: 399px;
+  filter: none;
+}
 
 .pet-content {
   position: absolute;
@@ -663,6 +679,12 @@ h2 {
   top: 232px;
   padding: 0 24px;
   transform: translateY(120px);
+  overflow: hidden;
+}
+.pet-content_pet-in-zoo {
+  top: 269px;
+  left: 22px;
+  transform: translateY(130px);
   overflow: hidden;
 }
 
@@ -690,6 +712,10 @@ h2 {
 .pagination_how-works {
   padding: 0px;
 }
+.pagination_pet-in-zoo {
+  padding: 0px;
+  margin: 30px auto 30px;
+}
 
 .pagination__number {
   font-family: "Roboto";
@@ -715,6 +741,12 @@ h2 {
 .pagination__number_how-works > * {
   color: #BDBDBD;
 }
+.pagination__number_pet-in-zoo {
+  color: #333333;
+}
+.pagination__number_pet-in-zoo > * {
+  color: #828282;
+}
 
 .pagination__range {
   -webkit-appearance: none;
@@ -738,6 +770,15 @@ h2 {
   -webkit-appearance: none;
   appearance: none;
   width: 62px;
+  height: 10px;
+  background: #333333;
+  cursor: pointer;
+}
+
+.pagination__range_pet-in-zoo::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 30px;
   height: 10px;
   background: #333333;
   cursor: pointer;
@@ -826,6 +867,22 @@ h2 {
   line-height: 1.6rem;
   margin: 0px;
   color: #4F4F4F;
+}
+
+.pets {
+  padding: 100px 0;
+}
+
+.pets__title {
+  text-align: center;
+  margin: 0 0 35px;
+}
+
+.pets-slider {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 0 160px;
 }
 
 .wrapper {
