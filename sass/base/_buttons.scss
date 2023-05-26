@@ -33,7 +33,11 @@
         @extend %transition;
         >* {
             border: 1px solid #4BD8B5;
-            fill: #4BD8B5;
+        }
+        > .button-transparent__sign_play {
+            background-image: url(../Assets/icons/play-sign-hover.svg);
+            background-repeat: no-repeat;
+            background-position: center center;
         }
     }
 }
@@ -46,4 +50,9 @@
     justify-content: center;
     border-radius: 50%;
     border: 1px solid #FFFFFF;;
+    &_play {
+        background-image: url(../Assets/icons/play-icon.svg);
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
 }

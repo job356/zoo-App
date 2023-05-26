@@ -1,12 +1,15 @@
 .watch-online {
+    position: relative;
     padding: 206px 0 111px;
     background-image: url(../Assets/img/backgrounds/watch-online-bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    overflow: hidden;
 }
 
 .title-block {
     padding-left: 210px;
+    padding-bottom: 197px;
 }
 
 .title-block__title {
@@ -17,4 +20,23 @@
     display: flex;
     flex-direction: column;
     gap: 15px;
+}
+
+.social-icon {
+    width: 20px;
+    height: 20px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    &_instagram {
+        background-image: url(../Assets/icons/social-icons/instagram.svg);
+    }
+    &_twitter {
+        background-image: url(../Assets/icons/social-icons/twitter.svg);
+    }
+    &_you-tube {
+        background-image: url(../Assets/icons/social-icons/you-tube.svg);
+    }
+    &_vk {
+        background-image: url(../Assets/icons/social-icons/vk.svg);
+    }
 }

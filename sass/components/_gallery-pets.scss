@@ -1,17 +1,42 @@
+.gallery {
+    position: absolute;
+    top: 406px;
+    left: 975px;
+    width: 989px;
+}
+
+.line-block {
+    position: absolute;
+    top: 182px;
+    left: -135px;
+}
+
 .gallery-pets-vieport {
     overflow: hidden;
 }
 
 .gallery-pets {
     display: flex;
+    align-items: center;
     gap: 46px;
 }
 
 .pet {
-    width: 245px;
-    height: 352px;
     position: relative;
+    width: 140px;
+    height: 203px;
+    @extend %transition;
+    &_default {
+        width: 245px;
+        height: 352px;
+    }
     &:hover {
+        // width: 245px;
+        // height: 352px;
+        // > .pet__img {
+        //     width: 245px;
+        //     height: 352px;
+        // }
         >* {
             transform: translateY(0px);
         }
@@ -19,10 +44,14 @@
 }
 
 .pet__img {
-    width: 245px;
-    height: 352px;
+    width: 140px;
+    height: 203px;
     filter: drop-shadow(5px 4px 50px rgba(152, 157, 198, 0.25));
     border-radius: 5px;
+    &_default {
+        width: 245px;
+        height: 352px;
+    }
 }
 
 .pet-content {
