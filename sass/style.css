@@ -457,6 +457,9 @@ h2 {
   margin: 0 auto;
   padding: 17px 18px;
 }
+.button_pay-feed {
+  padding: 17px 88px;
+}
 
 .button-transparent {
   display: flex;
@@ -883,6 +886,62 @@ h2 {
   align-items: center;
   gap: 20px;
   padding: 0 160px;
+}
+
+.pay-feed {
+  padding: 100px 0;
+  background: #F2F2F2;
+}
+
+.pay-feed__wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.pay-feed__title {
+  text-align: center;
+}
+
+.pay-feed__subtitle {
+  font-family: "Roboto";
+  font-style: normal;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.6rem;
+  text-align: center;
+  margin: 30px 0 0;
+  color: #4F4F4F;
+}
+
+.layout-5-column {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 63px;
+  padding: 92px 0 60px;
+}
+
+.step {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 245px;
+  height: 245px;
+  border-radius: 50%;
+  border: 1px solid #4BD8B5;
+}
+
+.step__name {
+  font-family: "Roboto";
+  font-style: normal;
+  font-size: 2rem;
+  font-weight: 900;
+  line-height: 2.3rem;
+  margin: 18px 0 0;
+  text-align: center;
+  color: #4F4F4F;
 }
 
 .wrapper {
