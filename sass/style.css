@@ -460,6 +460,9 @@ h2 {
 .button_pay-feed {
   padding: 17px 88px;
 }
+.button_testimonials {
+  padding: 17px 49px;
+}
 
 .button-transparent {
   display: flex;
@@ -719,6 +722,9 @@ h2 {
   padding: 0px;
   margin: 30px auto 30px;
 }
+.pagination_testimonials {
+  padding: 0 0 30px;
+}
 
 .pagination__number {
   font-family: "Roboto";
@@ -750,6 +756,12 @@ h2 {
 .pagination__number_pet-in-zoo > * {
   color: #828282;
 }
+.pagination__number_testimonials {
+  color: #333333;
+}
+.pagination__number_testimonials > * {
+  color: #828282;
+}
 
 .pagination__range {
   -webkit-appearance: none;
@@ -779,6 +791,15 @@ h2 {
 }
 
 .pagination__range_pet-in-zoo::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 30px;
+  height: 10px;
+  background: #333333;
+  cursor: pointer;
+}
+
+.pagination__range_testimonials::-webkit-slider-thumb {
   -webkit-appearance: none;
   appearance: none;
   width: 30px;
@@ -941,6 +962,70 @@ h2 {
   line-height: 2.3rem;
   margin: 18px 0 0;
   text-align: center;
+  color: #4F4F4F;
+}
+
+.testimonials {
+  padding: 100px 0;
+}
+
+.testimonials__wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 161px;
+}
+
+.layout-3-column {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 61px 0 49px;
+}
+
+.testimonials-content {
+  display: flex;
+  gap: 30px;
+}
+
+.testimonial {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 17px;
+  padding: 47px 73px 106px;
+  box-shadow: 2px 4px 15px rgba(6, 12, 70, 0.1);
+  border-radius: 5px;
+  background: #FEFEFE;
+}
+
+.testimonial__icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 68px;
+  height: 68px;
+  border-radius: 50%;
+  border: 1px solid #BDBDBD;
+}
+
+.testimonial__name {
+  font-family: "Roboto";
+  font-style: normal;
+  font-size: 2rem;
+  font-weight: 900;
+  line-height: 2.3rem;
+  margin: 0px;
+  color: #333333;
+}
+
+.testimonial__text {
+  font-family: "Roboto";
+  font-style: normal;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.6rem;
+  margin: 0px;
   color: #4F4F4F;
 }
 

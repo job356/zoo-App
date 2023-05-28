@@ -8,6 +8,9 @@
         padding: 0px;
         margin: 30px auto 30px;
     }
+    &_testimonials {
+        padding: 0 0 30px;
+    }
 }
 
 .pagination__number {
@@ -26,6 +29,12 @@
         }
     }
     &_pet-in-zoo {
+        color: #333333;
+        >* {
+            color: #828282;
+        }
+    }
+    &_testimonials {
         color: #333333;
         >* {
             color: #828282;
@@ -61,6 +70,15 @@
 }
 
 .pagination__range_pet-in-zoo::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 30px;
+    height: 10px;
+    background: #333333;
+    cursor: pointer;
+}
+
+.pagination__range_testimonials::-webkit-slider-thumb {
     -webkit-appearance: none;
     appearance: none;
     width: 30px;
