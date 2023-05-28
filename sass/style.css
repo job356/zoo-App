@@ -401,7 +401,7 @@ ul {
   box-sizing: border-box;
 }
 
-.pet-content, .pet, .navigation__item:hover, .button-transparent:hover {
+.pet-content, .pet, .navigation__item:hover, .animal-pin, .button-transparent:hover {
   transition: all 0.3s ease;
 }
 
@@ -525,6 +525,47 @@ h2 {
   font-weight: 900;
   line-height: 1.8rem;
   letter-spacing: 0.08em;
+}
+
+.animal-pin {
+  position: absolute;
+  width: 93.36px;
+  height: 93.38px;
+  background-repeat: no-repeat;
+  filter: drop-shadow(2px 4px 15px rgba(6, 12, 70, 0.15));
+  cursor: pointer;
+}
+.animal-pin_eagle {
+  top: 141.66px;
+  left: 116.4px;
+  background-image: url(../Assets/icons/animal-pins/eagles-placeholder.svg);
+}
+.animal-pin_eagle:focus {
+  background-image: url(../Assets/icons/animal-pins/eagles-placeholder-focus.svg);
+}
+.animal-pin_crocodile {
+  top: 160.53px;
+  left: 230.58px;
+  background-image: url(../Assets/icons/animal-pins/crocodile-placeholder.svg);
+}
+.animal-pin_crocodile:focus {
+  background-image: url(../Assets/icons/animal-pins/crocodile-placeholder-focus.svg);
+}
+.animal-pin_gorilla {
+  top: 245.5px;
+  left: 557.35px;
+  background-image: url(../Assets/icons/animal-pins/gorilla-placeholder.svg);
+}
+.animal-pin_gorilla:focus {
+  background-image: url(../Assets/icons/animal-pins/gorilla-placeholder-focus.svg);
+}
+.animal-pin_panda {
+  top: 152.63px;
+  left: 875.63px;
+  background-image: url(../Assets/icons/animal-pins/panda-placeholder.svg);
+}
+.animal-pin_panda:focus {
+  background-image: url(../Assets/icons/animal-pins/panda-placeholder-focus.svg);
 }
 
 .navigation {
@@ -1026,6 +1067,72 @@ h2 {
   font-weight: 400;
   line-height: 1.6rem;
   margin: 0px;
+  color: #4F4F4F;
+}
+
+.map {
+  padding: 100px 0;
+  background: #F2F2F2;
+}
+
+.map__wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.map-content {
+  position: relative;
+  padding: 60px 0 35px;
+}
+
+.animal-card {
+  position: absolute;
+  top: 230px;
+  left: -270px;
+  padding: 40px 55px 40px 47px;
+  border-radius: 8px;
+  box-shadow: 2px 4px 15px rgba(6, 12, 70, 0.15);
+  background: #FEFEFE;
+}
+
+.animal-card-content {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.animal-card__description {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.animal-card__name {
+  font-family: "Roboto";
+  font-style: normal;
+  font-size: 1.8rem;
+  font-weight: 900;
+  line-height: 2.1rem;
+  margin: 0 0 5px;
+  color: #333333;
+}
+
+.animal-card__characteristic {
+  font-family: "Roboto";
+  font-style: normal;
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.6rem;
+  margin: 0px;
+  color: #333333;
+}
+.animal-card__characteristic > * {
+  font-family: "Roboto";
+  font-style: normal;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.6rem;
   color: #4F4F4F;
 }
 

@@ -1,0 +1,55 @@
+.map {
+    padding: 100px 0;
+    background: #F2F2F2;
+}
+
+.map__wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.map-content {
+    position: relative;
+    padding: 60px 0 35px;
+}
+
+.animal-card {
+    position: absolute;
+    top:  230px;
+    left: -270px;
+
+    padding: 40px 55px 40px 47px;
+
+    border-radius: 8px;
+    box-shadow: 2px 4px 15px rgba(6, 12, 70, 0.15);
+    background: #FEFEFE;
+}
+
+.animal-card-content {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.animal-card__description {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.animal-card__name {
+    @include font($size: 1.8rem, $weight: 900, $height: 2.1rem);
+    margin: 0 0 5px;
+    color: #333333;
+}
+
+.animal-card__characteristic {
+    @include font($size: 1.4rem, $weight: 500, $height: 1.6rem);
+    margin: 0px;
+    color: #333333;
+    >* {
+        @include font($size: 1.4rem, $weight: 400, $height: 1.6rem);
+        color: #4F4F4F;
+    }
+}
