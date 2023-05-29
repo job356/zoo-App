@@ -501,15 +501,15 @@
             <div class="layout-2-column">
                 <div class="footer-contact">
                     <div class="logo">
-                        <p class="logo__text">zoo<span>online</span></p>
+                        <p class="logo__text logo__text_footer">zoo<br><span>online</span></p>
                     </div>
                     <form class="footer-form" action="#">
                         <p class="footer-form__title">Contact us</p>
                         <input class="footer-form__input" type="text" placeholder="Name">
                         <input class="footer-form__input" type="email" placeholder="Email">
-                        <fieldset>
-                            <legend>Please enter your message</legend>
-                            <input class="footer-form__comment" type="text">
+                        <fieldset class="footer__fieldset">
+                            <legend class="footer__legend">Please enter your message</legend>
+                            <textarea class="footer-form__comment" cols="59" rows="7"></textarea>
                         </fieldset>
                         <label class="footer-form__agreement" for="agreement">
                             <input class="footer-form__input-agreement" type="checkbox" id="agreement">
@@ -522,17 +522,16 @@
                     </form>
                 </div>
                 <div class="footer-location">
-                    <div class="layout-2-column">
+                    <div class="layout-2-column layout-2-column_location">
                         <nav class="footer-navigation">
-                            <ul class="navigation">
-                                <li><a class="navigation__item" href="#">About</a></li>
-                                <li><a class="navigation__item" href="#">Zoos</a></li>
-                                <li><a class="navigation__item" href="#">Map</a></li>
-                                <li><a class="navigation__item" href="#">Contact Us</a></li>
-                                <li><a class="navigation__item" href="#">Design</a></li>
+                            <ul class="navigation navigation_footer">
+                                <li><a class="navigation__item navigation__item_footer" href="#">About</a></li>
+                                <li><a class="navigation__item navigation__item_footer" href="#">Zoos</a></li>
+                                <li><a class="navigation__item navigation__item_footer" href="#">Map</a></li>
+                                <li><a class="navigation__item navigation__item_footer" href="#">Design</a></li>
                             </ul>
                         </nav>
-                        <button class="button">donate for volunteers</button>
+                        <button class="button button_footer">donate for volunteers</button>
                     </div>
                     <div class="footer-adresses">
                         <p class="footer-adresses__title">ZOO Online Centre</p>
@@ -540,31 +539,17 @@
                         <p class="footer-adresses__text">T(702) 163-3433<br>zoo.online@gmail.com</p>
                     </div>
                     <div class="footer-social-net">
-                        <span>
-                            <a href="#">
-                                <object data="/Assets/icons/social-icons/instagram.svg" type="image/svg+xml"></object>
-                            </a>
-                        </span>
-                        <span>
-                            <a href="#">
-                                <object data="/Assets/icons/social-icons/twitter.svg" type="image/svg+xml"></object>
-                            </a>
-                        </span>
-                        <span>
-                            <a href="#">
-                                <object data="/Assets/icons/social-icons/you-tube.svg" type="image/svg+xml"></object>
-                            </a>
-                        </span>
-                        <span>
-                            <a href="#">
-                                <object data="/Assets/icons/social-icons/vk.svg" type="image/svg+xml"></object>
-                            </a>
-                        </span>
+                        <div class="social-net social-net_footer">
+                            <a class="social-icon social-icon_instagram" href="https://www.instagram.com/"></a>
+                            <a class="social-icon social-icon_twitter" href="https://twitter.com/?lang=ru"></a>
+                            <a class="social-icon social-icon_vk" href="https://m.vk.com/"></a>
+                            <a class="social-icon social-icon_you-tube" href="https://www.youtube.com/?hl=RU"></a>
+                        </div>
                     </div>
                 </div>
             </div>
             <div class="footer-line"></div>
-            <p class="footer-copirights">©Noora Sagnayeva</p>
+            <p class="footer-copirights footer-copirights_top">©Noora Sagnayeva</p>
             <p class="footer-copirights">©RSSchool and ©Yem Digital - 2021</p>
         </div>
     </footer>

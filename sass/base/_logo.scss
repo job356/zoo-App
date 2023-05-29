@@ -6,4 +6,8 @@
         @include font($size: 1.8rem, $weight: 900, $height: 1.8rem);
         letter-spacing: 0.08em;
     }
+
+    &_footer {
+        color: #FEFEFE;
+    }
 }

@@ -1,0 +1,118 @@
+.footer {
+    padding: 100px 0 72px;
+    background: #333333;
+}
+
+.layout-2-column {
+    display: flex;
+    gap: 441px;
+    padding-bottom: 60px;
+    &_location {
+        align-items: center;
+        gap: 135px;
+        padding: 0px;
+    }
+}
+
+.footer-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.footer-form__title {
+    @include font($size: 2rem, $weight: 900, $height: 2.3rem);
+    margin: 57px 0 13px;
+    color: #FEFEFE;
+}
+
+.footer-form__input {
+    @include font($size: 1.4rem, $weight: 400, $height: 1.6rem);
+    color: #E0E0E0;
+    padding: 0 0 9px;
+
+    background: transparent;
+    outline: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #BDBDBD;
+}
+
+.footer__fieldset {
+    padding: 0 0 0 8px;
+    margin: 0px;
+    border: 1px solid #BDBDBD;
+    border-radius: 3px;
+}
+
+.footer__legend {
+    @include font($size: 1.2rem, $weight: 400, $height: 1.4rem);
+    padding: 0 5px 0 3px;
+    color: #BDBDBD;
+}
+
+.footer-form__comment {
+    @include font($size: 1.2rem, $weight: 400, $height: 1.4rem);
+    color: #BDBDBD;
+
+    background: transparent;
+    border: none;
+    outline: none;
+}
+
+.footer-form__agreement {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+
+    @include font($size: 1.2rem, $weight: 400, $height: 1.4rem);
+    color: #BDBDBD;
+    padding-top: 5px;
+}
+
+.footer-form__input-agreement {
+    width: 13px;
+    height: 13px;
+
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    outline: none;
+
+    cursor: pointer;
+
+    border: 1px solid #BDBDBD;
+    @extend %transition;
+    border-radius: 1px;
+    &:checked {
+        background: #BDBDBD;
+    }
+}
+
+.footer-adresses__title {
+    @include font($size: 1.4rem, $weight: 700, $height: 1.6rem);
+    margin: 57px 0 35px;
+    text-transform: uppercase;
+    color: #FEFEFE;
+}
+
+.footer-adresses__text {
+    @include font($size: 1.4rem, $weight: 400, $height: 1.6rem);
+    margin: 0 0 20px;
+    color: #FEFEFE;
+}
+
+.footer-line {
+    width: 100%;
+    border: 0.5px solid #FEFEFE;;
+}
+
+.footer-copirights {
+    @include font($size: 1.2rem, $weight: 400, $height: 1.4rem);
+    margin: 5px 0 0;
+    color: #BDBDBD;
+    &_top {
+        margin: 28px 0 0;
+    }
+}

@@ -2,6 +2,9 @@
     display: flex;
     gap: 83px;
     margin: 0px;
+    &_footer {
+        gap: 73px;
+    }
 }
 
 .navigation__item {
@@ -17,5 +20,9 @@
         @include font($size: 1.6rem, $weight: 900, $height:1.9rem);
         text-decoration: underline;
         pointer-events: none;
+    }
+
+    &_footer {
+        color: #FEFEFE;
     }
 }
