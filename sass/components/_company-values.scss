@@ -1,12 +1,18 @@
 .company-values {
     padding: 114px 0;
     background: #F2F2F2;
+    @include media-small-desktop {
+        padding: 100px 0 115px;
+    }
 }
 
 .company-values__content {
     display: flex;
     gap: 30px;
     justify-content: center;
+    @include media-small-desktop {
+        gap: 20px;
+    }
 }
 
 .value {

@@ -952,11 +952,21 @@ h2 {
   padding: 114px 0;
   background: #F2F2F2;
 }
+@media (max-width: 1620px) {
+  .company-values {
+    padding: 100px 0 115px;
+  }
+}
 
 .company-values__content {
   display: flex;
   gap: 30px;
   justify-content: center;
+}
+@media (max-width: 1620px) {
+  .company-values__content {
+    gap: 20px;
+  }
 }
 
 .value {
