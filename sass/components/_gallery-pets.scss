@@ -1,14 +1,17 @@
 .gallery {
     position: absolute;
     top: 406px;
-    left: 975px;
-    width: 989px;
+    right: 0px;
+    width: 1124px;
+    @include media-small-desktop {
+        width: 720px;
+        top: 432px;
+    }
 }
 
 .line-block {
     position: absolute;
     top: 182px;
-    left: -135px;
 }
 
 .gallery-pets-viewport {
@@ -19,8 +22,10 @@
     display: flex;
     align-items: center;
     gap: 46px;
+    padding-left: 135px;
     &_pet-in-zoo {
         gap: 30px;
+        padding: 0px;
     }
 }
 

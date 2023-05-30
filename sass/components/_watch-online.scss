@@ -5,11 +5,17 @@
     background-repeat: no-repeat;
     background-size: cover;
     overflow: hidden;
+    @include media-small-desktop {
+        padding: 128px 0 72px;
+    }
 }
 
 .title-block {
     padding-left: 210px;
     padding-bottom: 197px;
+    @include media-small-desktop {
+        padding: 0 0 320px;
+    }
 }
 
 .title-block__title {

@@ -654,10 +654,20 @@ h2 {
   background-size: cover;
   overflow: hidden;
 }
+@media (max-width: 1620px) {
+  .watch-online {
+    padding: 128px 0 72px;
+  }
+}
 
 .title-block {
   padding-left: 210px;
   padding-bottom: 197px;
+}
+@media (max-width: 1620px) {
+  .title-block {
+    padding: 0 0 320px;
+  }
 }
 
 .title-block__title {
@@ -695,14 +705,19 @@ h2 {
 .gallery {
   position: absolute;
   top: 406px;
-  left: 975px;
-  width: 989px;
+  right: 0px;
+  width: 1124px;
+}
+@media (max-width: 1620px) {
+  .gallery {
+    width: 720px;
+    top: 432px;
+  }
 }
 
 .line-block {
   position: absolute;
   top: 182px;
-  left: -135px;
 }
 
 .gallery-pets-viewport {
@@ -713,9 +728,11 @@ h2 {
   display: flex;
   align-items: center;
   gap: 46px;
+  padding-left: 135px;
 }
 .gallery-pets_pet-in-zoo {
   gap: 30px;
+  padding: 0px;
 }
 
 .pet {
@@ -785,7 +802,7 @@ h2 {
 
 .pagination {
   width: 245px;
-  padding: 20px 0 0 186px;
+  padding: 20px 0 0;
 }
 .pagination_how-works {
   padding: 0px;
@@ -1170,6 +1187,11 @@ h2 {
 .wrapper {
   max-width: 1620px;
   margin: auto;
+}
+@media (max-width: 1620px) {
+  .wrapper {
+    max-width: 900px;
+  }
 }
 
 .header {
