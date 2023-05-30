@@ -904,6 +904,11 @@ h2 {
 .how-works__wrapper {
   padding: 0 414px;
 }
+@media (max-width: 1620px) {
+  .how-works__wrapper {
+    padding: 0 77px;
+  }
+}
 
 .how-works-content {
   display: flex;

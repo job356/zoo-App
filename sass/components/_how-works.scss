@@ -4,6 +4,9 @@
 
 .how-works__wrapper {
     padding: 0 414px;
+    @include media-small-desktop {
+        padding: 0 77px;
+    }
 }
 
 .how-works-content {
