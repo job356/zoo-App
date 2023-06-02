@@ -465,7 +465,10 @@
             <div class="wrapper map__wrapper">
                 <h2 class="map__title">Map</h2>
                 <div class="map-content">
-                    <img class="map__img" src="/Assets/img/backgrounds/earth-map.svg" alt="earth-map">
+                    <picture>
+                        <source media="(max-width: 1620px)" srcset="/Assets/img/backgrounds/earth-map-small-desktop.svg">
+                        <img class="map__img" src="/Assets/img/backgrounds/earth-map.svg" alt="earth-map">
+                    </picture>
                     <span class="animal-pin animal-pin_eagle" tabindex="0"></span>
                     <div class="animal-card">
                         <div class="animal-card-content">

@@ -24,6 +24,11 @@
     border-radius: 8px;
     box-shadow: 2px 4px 15px rgba(6, 12, 70, 0.15);
     background: #FEFEFE;
+    @include media-small-desktop {
+        z-index: 1;
+        top: 190px;
+        left: 101px;
+    }
 }
 
 .animal-card-content {

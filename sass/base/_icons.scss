@@ -14,6 +14,10 @@
         &:focus {
             background-image: url(../Assets/icons/animal-pins/eagles-placeholder-focus.svg);
         }
+        @include media-small-desktop {
+            top: 115.66px;
+            left: 75.4px;
+        }
     }
     &_crocodile {
         top: 160.53px;
@@ -21,6 +25,10 @@
         background-image: url(../Assets/icons/animal-pins/crocodile-placeholder.svg);
         &:focus {
             background-image: url(../Assets/icons/animal-pins/crocodile-placeholder-focus.svg);
+        }
+        @include media-small-desktop {
+            top: 130.53px;
+            left: 160.58px;
         }
     }
     &_gorilla {
@@ -30,6 +38,10 @@
         &:focus {
             background-image: url(../Assets/icons/animal-pins/gorilla-placeholder-focus.svg);
         }
+        @include media-small-desktop {
+            top: 211.5px;
+            left: 407.35px;
+        }
     }
     &_panda {
         top: 152.63px;
@@ -37,6 +49,10 @@
         background-image: url(../Assets/icons/animal-pins/panda-placeholder.svg);
         &:focus {
             background-image: url(../Assets/icons/animal-pins/panda-placeholder-focus.svg);
+        }
+        @include media-small-desktop {
+            top: 130.63px;
+            left: 640.63px;
         }
     }
 }

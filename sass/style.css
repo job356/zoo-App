@@ -565,6 +565,12 @@ h2 {
 .animal-pin_eagle:focus {
   background-image: url(../Assets/icons/animal-pins/eagles-placeholder-focus.svg);
 }
+@media (max-width: 1620px) {
+  .animal-pin_eagle {
+    top: 115.66px;
+    left: 75.4px;
+  }
+}
 .animal-pin_crocodile {
   top: 160.53px;
   left: 230.58px;
@@ -572,6 +578,12 @@ h2 {
 }
 .animal-pin_crocodile:focus {
   background-image: url(../Assets/icons/animal-pins/crocodile-placeholder-focus.svg);
+}
+@media (max-width: 1620px) {
+  .animal-pin_crocodile {
+    top: 130.53px;
+    left: 160.58px;
+  }
 }
 .animal-pin_gorilla {
   top: 245.5px;
@@ -581,6 +593,12 @@ h2 {
 .animal-pin_gorilla:focus {
   background-image: url(../Assets/icons/animal-pins/gorilla-placeholder-focus.svg);
 }
+@media (max-width: 1620px) {
+  .animal-pin_gorilla {
+    top: 211.5px;
+    left: 407.35px;
+  }
+}
 .animal-pin_panda {
   top: 152.63px;
   left: 875.63px;
@@ -588,6 +606,12 @@ h2 {
 }
 .animal-pin_panda:focus {
   background-image: url(../Assets/icons/animal-pins/panda-placeholder-focus.svg);
+}
+@media (max-width: 1620px) {
+  .animal-pin_panda {
+    top: 130.63px;
+    left: 640.63px;
+  }
 }
 
 .step__arrow {
@@ -1231,6 +1255,13 @@ h2 {
   border-radius: 8px;
   box-shadow: 2px 4px 15px rgba(6, 12, 70, 0.15);
   background: #FEFEFE;
+}
+@media (max-width: 1620px) {
+  .animal-card {
+    z-index: 1;
+    top: 190px;
+    left: 101px;
+  }
 }
 
 .animal-card-content {
