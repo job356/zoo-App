@@ -813,6 +813,13 @@ h2 {
   transform: translateY(130px);
   overflow: hidden;
 }
+@media (max-width: 1620px) {
+  .pet-content_pet-in-zoo {
+    top: 183px;
+    left: 9px;
+    padding: 0px;
+  }
+}
 
 .pet-content__buttons {
   display: flex;

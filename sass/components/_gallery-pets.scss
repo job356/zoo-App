@@ -89,6 +89,11 @@
         left: 22px;
         transform: translateY(130px);
         overflow: hidden;
+        @include media-small-desktop {
+            top: 183px;
+            left: 9px;
+            padding: 0px;
+        }
     }
 }
 
