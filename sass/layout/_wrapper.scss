@@ -4,4 +4,9 @@
     @include media-small-desktop {
         max-width: $small-desktop-width;
     }
+    &__pets {
+        @include media-small-desktop {
+            max-width: 976px;
+        }
+    }
 }

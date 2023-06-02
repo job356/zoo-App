@@ -734,6 +734,11 @@ h2 {
   gap: 30px;
   padding: 0px;
 }
+@media (max-width: 1620px) {
+  .gallery-pets_pet-in-zoo {
+    gap: 20px;
+  }
+}
 
 .pet {
   position: relative;
@@ -748,8 +753,14 @@ h2 {
   transform: translateY(0px);
 }
 .pet_pet-in-zoo {
-  width: 277px;
+  width: 278px;
   height: 399px;
+}
+@media (max-width: 1620px) {
+  .pet_pet-in-zoo {
+    width: 210px;
+    height: 301px;
+  }
 }
 
 .pet__img {
@@ -763,9 +774,15 @@ h2 {
   height: 352px;
 }
 .pet__img_pet-in-zoo {
-  width: 277px;
+  width: 278px;
   height: 399px;
   filter: none;
+}
+@media (max-width: 1620px) {
+  .pet__img_pet-in-zoo {
+    width: 210px;
+    height: 301px;
+  }
 }
 
 .pet-content {
@@ -1005,12 +1022,22 @@ h2 {
   text-align: center;
   margin: 0 0 35px;
 }
+@media (max-width: 1620px) {
+  .pets__title {
+    margin: 0 0 31px;
+  }
+}
 
 .pets-slider {
   display: flex;
   align-items: center;
   gap: 20px;
-  padding: 0 160px;
+  padding: 0 170px;
+}
+@media (max-width: 1620px) {
+  .pets-slider {
+    padding: 0px;
+  }
 }
 
 .pay-feed {
@@ -1206,6 +1233,11 @@ h2 {
 @media (max-width: 1620px) {
   .wrapper {
     max-width: 900px;
+  }
+}
+@media (max-width: 1620px) {
+  .wrapper__pets {
+    max-width: 976px;
   }
 }
 

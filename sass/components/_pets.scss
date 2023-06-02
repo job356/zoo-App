@@ -5,11 +5,17 @@
 .pets__title {
     text-align: center;
     margin: 0 0 35px;
+    @include media-small-desktop {
+        margin: 0 0 31px;
+    }
 }
 
 .pets-slider {
     display: flex;
     align-items: center;
     gap: 20px;
-    padding: 0 160px;
+    padding: 0 170px;
+    @include media-small-desktop {
+        padding: 0px;
+    }
 }

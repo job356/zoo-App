@@ -26,6 +26,9 @@
     &_pet-in-zoo {
         gap: 30px;
         padding: 0px;
+        @include media-small-desktop {
+            gap: 20px;
+        }
     }
 }
 
@@ -44,8 +47,12 @@
         }
     }
     &_pet-in-zoo {
-        width: 277px;
+        width: 278px;
         height: 399px;
+        @include media-small-desktop {
+            width: 210px;
+            height: 301px;
+        }
     }
 }
 
@@ -59,9 +66,13 @@
         height: 352px;
     }
     &_pet-in-zoo {
-        width: 277px;
+        width: 278px;
         height: 399px;
         filter: none;
+        @include media-small-desktop {
+            width: 210px;
+            height: 301px;
+        }
     }
 }
 
