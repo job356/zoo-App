@@ -40,3 +40,15 @@
         }
     }
 }
+
+.step__arrow {
+    width: 108px;
+    height: 16px;
+    background-image: url(../Assets/icons/arrow-icons/arrow-step.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    @include media-small-desktop {
+        width: 49px;
+        background-image: url(../Assets/icons/arrow-icons/arrow-step-small-desktop.svg);
+    }
+}

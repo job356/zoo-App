@@ -590,6 +590,20 @@ h2 {
   background-image: url(../Assets/icons/animal-pins/panda-placeholder-focus.svg);
 }
 
+.step__arrow {
+  width: 108px;
+  height: 16px;
+  background-image: url(../Assets/icons/arrow-icons/arrow-step.svg);
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+@media (max-width: 1620px) {
+  .step__arrow {
+    width: 49px;
+    background-image: url(../Assets/icons/arrow-icons/arrow-step-small-desktop.svg);
+  }
+}
+
 .navigation {
   display: flex;
   gap: 83px;
@@ -1072,6 +1086,12 @@ h2 {
   justify-content: center;
   gap: 63px;
   padding: 92px 0 60px;
+}
+@media (max-width: 1620px) {
+  .layout-5-column {
+    gap: 17px;
+    padding: 50px 0;
+  }
 }
 
 .step {
