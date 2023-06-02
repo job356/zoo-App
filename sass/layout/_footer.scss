@@ -1,6 +1,9 @@
 .footer {
     padding: 100px 0 72px;
     background: #333333;
+    @include media-small-desktop {
+        padding: 100px 0 52px;
+    }
 }
 
 .layout-2-column {
@@ -11,6 +14,10 @@
         align-items: center;
         gap: 135px;
         padding: 0px;
+    }
+    @include media-small-desktop {
+        gap: 76px;
+        padding-bottom: 65px;
     }
 }
 
@@ -114,5 +121,8 @@
     color: #BDBDBD;
     &_top {
         margin: 28px 0 0;
+        @include media-small-desktop {
+            margin: 31px 0 0;
+        }
     }
 }

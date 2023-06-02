@@ -23,6 +23,15 @@
     }
     &_footer {
         padding: 17px 27px;
+        @include media-small-desktop {
+            display: none;
+        }
+    }
+    &_footer-small-desktop {
+        display: none;
+        @include media-small-desktop {
+            display: block;
+        }
     }
 }
 

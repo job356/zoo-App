@@ -28,6 +28,9 @@
     gap: 15px;
     &_footer {
         flex-direction: row;
+        @include media-small-desktop {
+            padding-bottom: 40px;
+        }
     }
 }
 
