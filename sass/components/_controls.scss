@@ -1,3 +1,9 @@
+.block-controls {
+    display: flex;
+    align-items: center;
+    gap: 34px;
+}
+
 .theme-togler {
     display: flex;
     padding: 5px 28px 5px 6px;
@@ -13,4 +19,11 @@
     background: #FFFFFF;
     box-shadow: 2px 4px 15px rgba(6, 12, 70, 0.15);
     cursor: pointer;
+}
+
+.burger-menu {
+    display: none;
+    @include media-tablet {
+        display: block;
+    }
 }

@@ -5,6 +5,9 @@
     &_footer {
         gap: 73px;
     }
+    @include media-tablet {
+        display: none;
+    }
 }
 
 .navigation__item {
