@@ -1,11 +1,17 @@
 .how-works {
     padding: 100px 0 101px;
+    @include media-tablet {
+        padding: 100px 0 68px;
+    }
 }
 
 .how-works__wrapper {
     padding: 0 414px;
     @include media-small-desktop {
         padding: 0 77px;
+    }
+    @include media-tablet {
+        padding: 0px;
     }
 }
 
@@ -17,10 +23,7 @@
 }
 
 .how-works__title {
-    @include font($size: 4.8rem, $weight: 900, $height: 5.6rem);
     align-self: flex-start;
-    margin: 0px;
-    color: #333333;
 }
 
 .how-works__description {
