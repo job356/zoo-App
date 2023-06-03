@@ -10,6 +10,9 @@ h1 {
     @include font($size: 8.9rem, $weight: 900, $height: 10.4rem);
     color: #FEFEFE;
     margin: 0px;
+    @include media-tablet {
+        @include font($size: 6.4rem, $weight: 900, $height: 7.5rem);
+    }
 }
 
 h2 {

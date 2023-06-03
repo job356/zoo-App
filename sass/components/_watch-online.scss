@@ -8,6 +8,9 @@
     @include media-small-desktop {
         padding: 128px 0 72px;
     }
+    @include media-tablet {
+        padding: 122px 0 100px;
+    }
 }
 
 .title-block {
@@ -16,10 +19,16 @@
     @include media-small-desktop {
         padding: 0 0 320px;
     }
+    @include media-tablet {
+        padding: 0 0 374px;
+    }
 }
 
 .title-block__title {
     margin-bottom: 37px;
+    @include media-tablet {
+        margin-bottom: 30px;
+    }
 }
 
 .social-net {

@@ -1,6 +1,6 @@
 .pagination {
     width: 245px;
-    padding: 20px 0 0 ;
+    padding: 20px 0 0;
     &_how-works {
         padding: 0px;
     }
@@ -11,6 +11,12 @@
     &_testimonials {
         padding: 0 0 30px;
     }
+}
+
+.pagination__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .pagination__number {
