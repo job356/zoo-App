@@ -4,6 +4,9 @@
     @include media-small-desktop {
         padding: 100px 0 115px;
     }
+    @include media-tablet {
+        padding: 100px 0;
+    }
 }
 
 .company-values__content {
@@ -13,6 +16,11 @@
     @include media-small-desktop {
         gap: 20px;
     }
+    @include media-tablet {
+        flex-direction: column;
+        gap: 50px;
+        padding: 0 156px;
+    }
 }
 
 .value {
@@ -21,6 +29,9 @@
     align-items: center;
     flex-basis: 380px;
     gap: 15px;
+    @include media-tablet {
+        flex-basis: auto;
+    }
 }
 
 .value__name {

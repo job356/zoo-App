@@ -1082,6 +1082,11 @@ h2 {
     padding: 100px 0 115px;
   }
 }
+@media (max-width: 900px) {
+  .company-values {
+    padding: 100px 0;
+  }
+}
 
 .company-values__content {
   display: flex;
@@ -1093,6 +1098,13 @@ h2 {
     gap: 20px;
   }
 }
+@media (max-width: 900px) {
+  .company-values__content {
+    flex-direction: column;
+    gap: 50px;
+    padding: 0 156px;
+  }
+}
 
 .value {
   display: flex;
@@ -1100,6 +1112,11 @@ h2 {
   align-items: center;
   flex-basis: 380px;
   gap: 15px;
+}
+@media (max-width: 900px) {
+  .value {
+    flex-basis: auto;
+  }
 }
 
 .value__name {
