@@ -10,6 +10,9 @@
     &__pets {
         @include media-small-desktop {
             max-width: 976px;
+            @include media-tablet {
+                max-width: $tablet-width;
+            }
         }
     }
     &__testimonials {

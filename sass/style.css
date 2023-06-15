@@ -649,6 +649,19 @@ h2 {
     background-image: url(../Assets/icons/arrow-icons/arrow-step-small-desktop.svg);
   }
 }
+@media (max-width: 900px) {
+  .step__arrow {
+    width: 16px;
+    height: 41px;
+    background-image: url(../Assets/icons/arrow-icons/arrow-step-tablet.svg);
+  }
+}
+
+@media (max-width: 900px) {
+  .arrow-icon {
+    display: none;
+  }
+}
 
 .navigation {
   display: flex;
@@ -1175,6 +1188,11 @@ h2 {
   flex-direction: column;
   align-items: center;
 }
+@media (max-width: 900px) {
+  .pay-feed__wrapper {
+    padding: 0 31px;
+  }
+}
 
 .pay-feed__title {
   text-align: center;
@@ -1190,6 +1208,16 @@ h2 {
   margin: 30px 0 0;
   color: #4F4F4F;
 }
+@media (max-width: 900px) {
+  .pay-feed__subtitle {
+    font-family: "Roboto";
+    font-style: normal;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.6rem;
+    margin: 15px 0 0;
+  }
+}
 
 .layout-5-column {
   display: flex;
@@ -1202,6 +1230,12 @@ h2 {
   .layout-5-column {
     gap: 17px;
     padding: 50px 0;
+  }
+}
+@media (max-width: 900px) {
+  .layout-5-column {
+    flex-direction: column;
+    gap: 30px;
   }
 }
 
@@ -1433,6 +1467,11 @@ h2 {
 @media (max-width: 1620px) {
   .wrapper__pets {
     max-width: 976px;
+  }
+}
+@media (max-width: 1620px) and (max-width: 900px) {
+  .wrapper__pets {
+    max-width: 600px;
   }
 }
 .wrapper__testimonials {

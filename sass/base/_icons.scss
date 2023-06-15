@@ -67,4 +67,15 @@
         width: 49px;
         background-image: url(../Assets/icons/arrow-icons/arrow-step-small-desktop.svg);
     }
+    @include media-tablet {
+        width: 16px;
+        height: 41px;
+        background-image: url(../Assets/icons/arrow-icons/arrow-step-tablet.svg);
+    }
+}
+
+.arrow-icon {
+    @include media-tablet {
+        display: none;
+    }
 }
