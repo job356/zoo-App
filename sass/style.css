@@ -593,6 +593,12 @@ h2 {
     left: 75.4px;
   }
 }
+@media (max-width: 900px) {
+  .animal-pin_eagle {
+    top: 65.66px;
+    left: 40.4px;
+  }
+}
 .animal-pin_crocodile {
   top: 160.53px;
   left: 230.58px;
@@ -605,6 +611,12 @@ h2 {
   .animal-pin_crocodile {
     top: 130.53px;
     left: 160.58px;
+  }
+}
+@media (max-width: 900px) {
+  .animal-pin_crocodile {
+    top: 75.53px;
+    left: 90.58px;
   }
 }
 .animal-pin_gorilla {
@@ -621,6 +633,12 @@ h2 {
     left: 407.35px;
   }
 }
+@media (max-width: 900px) {
+  .animal-pin_gorilla {
+    top: 125.5px;
+    left: 255.35px;
+  }
+}
 .animal-pin_panda {
   top: 152.63px;
   left: 875.63px;
@@ -633,6 +651,12 @@ h2 {
   .animal-pin_panda {
     top: 130.63px;
     left: 640.63px;
+  }
+}
+@media (max-width: 900px) {
+  .animal-pin_panda {
+    top: 70.63px;
+    left: 410.63px;
   }
 }
 
@@ -1367,6 +1391,11 @@ h2 {
   padding: 100px 0;
   background: #F2F2F2;
 }
+@media (max-width: 900px) {
+  .map {
+    padding: 100px 0 80px;
+  }
+}
 
 .map__wrapper {
   display: flex;
@@ -1377,6 +1406,11 @@ h2 {
 .map-content {
   position: relative;
   padding: 60px 0 35px;
+}
+@media (max-width: 900px) {
+  .map-content {
+    padding: 50px 0 35px;
+  }
 }
 
 .animal-card {
@@ -1393,6 +1427,12 @@ h2 {
     z-index: 1;
     top: 190px;
     left: 101px;
+  }
+}
+@media (max-width: 900px) {
+  .animal-card {
+    top: 150px;
+    left: 80px;
   }
 }
 
