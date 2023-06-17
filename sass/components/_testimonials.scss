@@ -20,6 +20,10 @@
     @include media-small-desktop {
         padding: 50px 0 30px;
     }
+    @include media-tablet {
+        align-self: flex-start;
+        padding: 46px 0 49px;
+    }
 }
 
 .testimonials-content {
@@ -42,6 +46,10 @@
     background: #FEFEFE;
     @include media-small-desktop {
         padding: 48px 56px 89px;
+    }
+    @include media-tablet {
+        width: 580px;
+        padding: 47px 72px 106px;
     }
 }
 

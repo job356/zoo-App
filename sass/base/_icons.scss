@@ -79,3 +79,9 @@
         display: none;
     }
 }
+
+.testimonials-arrow {
+    @include media-tablet {
+        display: none;
+    }
+}

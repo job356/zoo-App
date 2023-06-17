@@ -17,5 +17,10 @@
     }
     &__testimonials {
         max-width: 976px;
+        @include media-tablet {
+            max-width: $tablet-width;
+            padding: 0 10px;
+            overflow: hidden;
+        }
     }
 }
