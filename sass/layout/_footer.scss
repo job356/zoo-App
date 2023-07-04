@@ -4,6 +4,9 @@
     @include media-small-desktop {
         padding: 100px 0 52px;
     }
+    @include media-tablet {
+        padding: 96px 0 48px;
+    }
 }
 
 .layout-2-column {
@@ -19,18 +22,28 @@
         gap: 76px;
         padding-bottom: 65px;
     }
+    @include media-tablet {
+        display: block;
+        padding: 0px;
+    }
 }
 
 .footer-form {
     display: flex;
     flex-direction: column;
     gap: 20px;
+    @include media-tablet {
+        padding-right: 216px;
+    }
 }
 
 .footer-form__title {
     @include font($size: 2rem, $weight: 900, $height: 2.3rem);
     margin: 57px 0 13px;
     color: #FEFEFE;
+    @include media-tablet {
+        margin: 23px 0 35px;
+    }
 }
 
 .footer-form__input {
@@ -102,6 +115,9 @@
     margin: 57px 0 35px;
     text-transform: uppercase;
     color: #FEFEFE;
+    @include media-tablet {
+        margin: 77px 0 35px;
+    }
 }
 
 .footer-adresses__text {
@@ -123,6 +139,9 @@
         margin: 28px 0 0;
         @include media-small-desktop {
             margin: 31px 0 0;
+        }
+        @include media-tablet {
+            margin: 28px 0 0;
         }
     }
 }

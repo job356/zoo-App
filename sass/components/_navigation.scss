@@ -29,3 +29,29 @@
         color: #FEFEFE;
     }
 }
+
+.navigation_footer-tablet {
+    display: none;
+    @include media-tablet {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        margin: 0px;
+    }
+}
+
+.navigation__item_footer-tablet {
+    @include font($size: 1.6rem, $weight: 500, $height: 1.9rem);
+    text-decoration: none;
+    color: #FEFEFE;
+    &:hover {
+        @include font($size: 1.6rem, $weight: 900, $height:1.9rem);
+        text-decoration: underline;
+        @extend %transition;
+    }
+    &_active {
+        @include font($size: 1.6rem, $weight: 900, $height:1.9rem);
+        text-decoration: underline;
+        pointer-events: none;
+    }
+}

@@ -30,34 +30,3 @@
         margin-bottom: 30px;
     }
 }
-
-.social-net {
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-    &_footer {
-        flex-direction: row;
-        @include media-small-desktop {
-            padding-bottom: 40px;
-        }
-    }
-}
-
-.social-icon {
-    width: 20px;
-    height: 20px;
-    background-repeat: no-repeat;
-    background-position: center center;
-    &_instagram {
-        background-image: url(../Assets/icons/social-icons/instagram.svg);
-    }
-    &_twitter {
-        background-image: url(../Assets/icons/social-icons/twitter.svg);
-    }
-    &_you-tube {
-        background-image: url(../Assets/icons/social-icons/you-tube.svg);
-    }
-    &_vk {
-        background-image: url(../Assets/icons/social-icons/vk.svg);
-    }
-}

@@ -32,6 +32,16 @@
         @include media-small-desktop {
             display: block;
         }
+        @include media-tablet {
+            display: none;
+        }
+    }
+    &_footer-tablet {
+        display: none;
+        @include media-tablet {
+            display: inline-block;
+            padding: 17px 25px;
+        }
     }
 }
 
