@@ -7,6 +7,9 @@
     @include media-tablet {
         max-width: $tablet-width;
     }
+    @include media-mobile {
+        max-width: $mobile-width;
+    }
     &__pets {
         @include media-small-desktop {
             max-width: 976px;

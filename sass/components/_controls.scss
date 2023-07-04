@@ -2,6 +2,9 @@
     display: flex;
     align-items: center;
     gap: 34px;
+    @include media-mobile {
+        gap: 24px;
+    }
 }
 
 .theme-togler {

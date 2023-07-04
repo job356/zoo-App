@@ -1550,6 +1550,11 @@ h2 {
   align-items: center;
   gap: 34px;
 }
+@media (max-width: 600px) {
+  .block-controls {
+    gap: 24px;
+  }
+}
 
 .theme-togler {
   display: flex;
@@ -1591,6 +1596,11 @@ h2 {
     max-width: 600px;
   }
 }
+@media (max-width: 600px) {
+  .wrapper {
+    max-width: 300px;
+  }
+}
 @media (max-width: 1620px) {
   .wrapper__pets {
     max-width: 976px;
@@ -1616,7 +1626,7 @@ h2 {
   position: sticky;
   top: 0px;
   z-index: 1;
-  padding: 26px 0;
+  padding: 25px 0;
   background: #FFFFFF;
   box-shadow: 0px 4px 8px rgba(44, 101, 77, 0.08);
 }

@@ -13,3 +13,7 @@
 @mixin media-tablet {
     @media (max-width: 900px) {@content};
 }
+
+@mixin media-mobile {
+    @media (max-width: 600px) {@content};
+}
